@@ -37,6 +37,24 @@
 	There are several ways when we need to implement an escaping closure. One instance is when we use asynchronous execution. When we are dealing with dispatch queue, the queue will hold onto the closure for you, and when the queue is done completing its work, then it will return back to the closure and complete it. Since dispatch queue is outside of the scope, we need to use escaping closure. Another instance is when we need to store our closure to a global variable, property, or any bit of storage that lives on past the function.
 </details>
 
+<details>
+    <summary>What is a Protocol in Swift?</summary>
+
+    Answer: The protocol is a very common feature of the Swift programming language and the protocol is a concept that is similar to an interface from java. A protocol defines a blueprint of properties, methods, and other requirements that are suitable for a particular task.
+
+    In its simplest form, the protocol is an interface that describes some methods and properties. The protocol is just described as the properties or methods skeleton instead of implementation. Properties and methods implementation can be done by defining enumerations, functions, and classes.
+
+    Protocols are declared after the structure, enumeration or class type names. A single and multiple protocol declaration can be possible. Multiple protocols are separated by commas.
+</details>
+
+<details>
+    <summary>What is a delegate in Swift?</summary>
+
+    Answer: Delegate is a design pattern, which is used to pass the data or communication between structs or classes. Delegate allows sending a message from one object to another object when a specific event happens and is used for handling table view and collection view events.
+
+    Delegates have one to one relationship and one to one communication.
+</details>
+
 ### Types
 
 <details>
